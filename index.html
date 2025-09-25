@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Trader's Codex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <div class="candlestick-background"></div>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">The Codex</a>
+            <div class="nav__actions">
+                <i class='bx bx-moon' id="theme-toggle"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Peta Konsep Pasar</h1>
+                <p class="hero-subtitle">Klik kartu untuk mengungkap setiap konsep trading.</p>
+            </div>
+        </section>
+
+        <section class="codex-gallery container">
+            
+            <div class="codex-card-container">
+                <div class="codex-card">
+                    <div class="card-face card-front">
+                        <img src="images/smc icon.gif" alt="SMC Icon">
+                        <h3>Smart Money Concept</h3>
+                        <p>Mengikuti jejak institusi besar.</p>
+                    </div>
+                    <div class="card-face card-back">
+                        <h3>Liquidity Grab</h3>
+                        <img src="images/Liquidity.gif" alt="Liquidity Grab Animation" class="card-back-gif">
+                        <p>Harga sengaja menembus level kunci untuk memicu stop loss sebelum berbalik arah sebenarnya.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="codex-card-container">
+                <div class="codex-card">
+                    <div class="card-face card-front">
+                        <img src="images/teknikal icon.gif" alt="Technical Analysis Icon">
+                        <h3>Analisis Teknikal</h3>
+                        <p>Membaca pola harga & tren pasar.</p>
+                    </div>
+                    <div class="card-face card-back">
+                        <h3>Trendline Break</h3>
+                        <img src="images/trend.gif" alt="Trendline Animation" class="card-back-gif">
+                        <p>Harga menembus garis tren, seringkali menandakan potensi perubahan arah tren.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="codex-card-container">
+                <div class="codex-card">
+                    <div class="card-face card-front">
+                        <img src="images/fundamental icon.gif" alt="Fundamental Analysis Icon">
+                        <h3>Analisis Fundamental</h3>
+                        <p>Memahami kekuatan ekonomi.</p>
+                    </div>
+                    <div class="card-face card-back">
+                        <h3>High-Impact News</h3>
+                        <img src="images/impact.gif" alt="News Impact Animation" class="card-back-gif">
+                        <p>Rilis data ekonomi penting yang menyebabkan volatilitas pasar yang ekstrim.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>The Trader's Codex by Hikmahtyar</p>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
